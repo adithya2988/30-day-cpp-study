@@ -9,10 +9,10 @@ cin >> n;
 int arr[n]; // Declare an array of size n
 for(int i=0;i<n;i++)
 {
-    cout<<"enter the element at index "<<i<<": ";
+    cout<<"Enter the element at index "<<i<<": ";
     cin>>arr[i];
 }
-cout<<"the elements of the array are: ";
+cout<<"The elements of the array are: ";
 for(int i=0;i<n;i++)
 {
     cout<<arr[i]<<" ";
@@ -39,13 +39,8 @@ for(int i=1;i<n;i++)
     {
         secondlargest=arr[i];
     }
-
-
 }
-cout<<endl<<"the largest value is: "<<largest<<endl;
-cout<<"the second largest value is: "<<secondlargest<<endl;
-
-
-    
+cout<<endl<<"The largest value is: "<<largest<<endl;
+cout<<"The second largest value is: "<<secondlargest<<endl;
     return 0;
 }
