@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
    int arr[]={10,20,30,40,50};
-   int largest=arr[0];
+   int largest=arr[1];
    int secondlargest=INT_MIN;
    for(int i=0;i<5;i++)
    {
