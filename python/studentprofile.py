@@ -1,0 +1,5 @@
+print("Student Profile")
+print("Name: Adithya")
+print("Age: 18")
+print("Course: Computer Science engineering")
+print("Languages: python, cpp, html")
